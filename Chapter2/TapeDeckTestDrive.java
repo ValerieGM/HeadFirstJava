@@ -12,7 +12,7 @@ class TapeDeck {
 
 public class TapeDeckTestDrive {
     public static void main(String [] args) {
-        // Declaration needed
+        // Object creation needed
         TapeDeck t = new TapeDeck();
         
         t.canRecord = true;
