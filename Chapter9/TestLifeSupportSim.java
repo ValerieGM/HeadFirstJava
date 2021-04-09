@@ -42,12 +42,12 @@ class SimUnit {
 
 public class TestLifeSupportSim {
     public static void main(String[] args) {
-        ArrayList<SimUnit> aList = new ArrayList<SimUnit>();
-        V2RAdiator v2 = new V2RAdiator(aList);
-        V3Radiator v3 = new V3Radiator(aList);
+        // ArrayList<SimUnit> aList = new ArrayList<SimUnit>();
+        // V2RAdiator v2 = new V2RAdiator(aList);
+        // V3Radiator v3 = new V3Radiator(aList);
 
         for (int z = 0; z < 20; z++) {
-            RetentionBot ret = new RetentionBot(aList);
+            // RetentionBot ret = new RetentionBot(aList);
         }
     }
 }
