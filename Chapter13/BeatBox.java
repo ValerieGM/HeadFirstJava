@@ -109,7 +109,7 @@ public class BeatBox {
         track.add(makeEvent(192, 9, 1, 0, 15));
         try {
             sequencer.setSequence(sequence);
-            sequencer.setLoopCount(sequencer.LOOP_CONTINUOUSLY);
+            sequencer.setLoopCount(Sequencer.LOOP_CONTINUOUSLY);
             sequencer.start();
             sequencer.setTempoInBPM(120);
         } catch (Exception e) {
